@@ -1,0 +1,652 @@
+*{
+   
+    box-sizing: border-box;
+}
+
+
+html,body{
+     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+  
+body{
+
+
+    font-family: Arial,  sans-serif;
+    background:#f2f5f7 ;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    transition: opacity  0.5s ease-in;
+}
+
+
+.carde{
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0,0, 0.1);
+margin-bottom: 20px;
+    width:100%;
+    margin: auto;
+    margin-top: 6em;
+
+
+    
+}
+
+.carde video{
+    border-radius: 10%;
+    margin-top: 5em;
+    border: #4CAF50 solid 1px;
+}
+
+
+.carde img{
+
+     width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    object-fit: cover;
+justify-content: space-between ;
+
+}
+
+body.loaded{
+    opacity:1;
+}
+
+header{
+    background:green;
+    border-radius: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+     }
+
+
+
+     a:hover{
+    background: rgb(187, 197, 189);
+
+ }
+ @media screen and (max-width: 768px){ 
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+
+
+.grid div {
+width: 100%;
+}
+
+.grid img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+}
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    padding: 10px;
+}
+
+
+ @media (min-width:1024px) {
+    header {
+        padding: 10px 20px;
+        border-radius: 10px;
+    
+    }
+
+   }
+
+header .fade-text{
+flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+header img{
+    position: relative;
+    height: 50px;
+    border-radius: 500%;
+    gap: 10px;
+}
+
+.apropos{
+
+ background: linear-gradient( to top,rgb(18,4,4,0.726),rgb(0,0,0,0.6)),url('Forêt.jpg');
+    background-size: cover;
+    text-align: center;
+    margin-top: 0;
+    padding:70px;
+    color: #f2f5f7;
+
+
+
+}
+
+
+.apropos h1{
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+  
+
+
+
+
+
+
+
+.Ed{
+    background: linear-gradient( to top,rgb(18,4,4,0.726),rgb(0,0,0,0.6)),url('ed.mb.jpg');
+    background-size: cover;
+    text-align: center;
+    top: 0;
+    padding: 70px;
+    color: #f2f5f7;
+    width: 100%;
+}
+
+.Ed h1{
+    margin-top: 2em;
+}
+
+.apropos .fade-text{
+
+margin-bottom: 40px;
+}
+
+html{
+    @keyframes {
+        animation: 0.3s;
+        
+    }
+    
+}
+
+.container {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat( 2,1fr);
+    gap: 15px;
+
+    
+}
+.card{
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0,0, 0.1);
+margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+border: 2px solid #4CAF50;
+
+}
+
+
+.card img{
+    display: block;
+}
+
+ section .fade-text{
+    text-align: center;
+    color:#4CAF50;
+    margin-top: 5em;
+}
+
+
+
+.card video{
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card img{
+
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+
+.section{
+
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2);
+    padding: 15px;
+
+}
+
+.section h1{
+    color: black;
+}
+
+
+
+body.loaded.fade-text{
+    opacity: 1;
+    transform: translateY(0);
+
+}
+ 
+
+.section2{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat( 2);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 2em;
+
+
+}
+
+
+.section3{
+     display: grid;
+    gap: 10px;
+    grid-template-columns: repeat( 2);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 2em;
+
+
+}
+
+
+.card-footer{
+
+    background:green;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding:8px;
+border-radius: 5em;
+
+}
+
+
+
+
+
+.blonde{
+
+    height: 100vh;
+    font-family:Arial,  sans-serif ;
+    overflow: hidden;
+    
+     
+}
+
+.bg-video{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index:-2;
+
+
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0, 0.3);
+    pointer-events: none;
+}
+
+
+
+
+
+.content .fade-text{
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10%; opacity: 1;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+
+}
+
+.content P{
+
+    font-size: 20PX;
+    text-align: center;
+    color: white;
+}
+
+
+.container1{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+p{
+    text-align: center;
+    line-height: 1;
+
+}
+
+.btn{
+
+   width: 320px;
+   height: 50px;
+   background: green;
+   border: none;
+   border-radius: 50px;
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 20px auto;
+   text-decoration: none;
+   
+    
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.op-img{
+
+    width: 120px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border:green 1px solid;
+    cursor: pointer;
+    top:1px;
+
+    opacity: 1;
+    transform: scale(0.8) translatehY(30px);
+    transition: all 1s ease;  
+
+}
+
+.op{ 
+     width: 120px;
+    height: 130px;
+    border-radius: 50%;
+    border:green 1px solid;
+    cursor: pointer;
+    top:1px;
+    margin: 5em;
+    opacity: 1;
+    transform: scale(0.8) translatehY(30px);
+    transition: all 1s ease;  
+
+    
+}
+
+
+
+
+section{
+
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    height: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: -40vh;
+    width:100%;
+
+
+    
+}
+
+h3{
+    text-align: justify;
+    margin: 10px;
+}
+
+
+
+
+ .mp{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.web .kl{
+    margin-bottom: 10vh;
+
+    margin:10%;
+    gap:20px 10px;
+    
+}
+
+.Ed p{
+    margin: 3em;
+}
+
+
+
+header {
+  background: green;
+  color: white;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin: 2em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+
+}
+
+.card {
+  background: rgb(250, 246, 246);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+    background: #334155;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+
+@keyframes slideUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.pm div{
+    gap: 20px;
+    
+}
+
+
+
+
+
+.grid:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+
+}
+
+ section .categories{
+    position: relative;
+
+}
+
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+footer{
+    background-color:green;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+     width: 100%;
+     margin: 0;
+    
+}
+
+
+footer img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
